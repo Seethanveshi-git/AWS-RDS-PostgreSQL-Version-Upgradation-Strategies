@@ -144,13 +144,10 @@ When upgrading PostgreSQL 10 → 13 in-place:
 - Deprecated features removed
 - Slight SQL behavior differences
 
- ### 4. Long-running transactions
-- Can delay or block upgrade
-
- ### 5. Replication impact
+ ### 4. Replication impact
 - Read replicas may need recreation or upgrade
 
- ### 6. Storage constraints
+ ### 5. Storage constraints
 - Needs temporary free space
 - Low storage may cause failure
 
