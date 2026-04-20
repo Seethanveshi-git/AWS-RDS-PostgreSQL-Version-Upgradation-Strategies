@@ -517,7 +517,6 @@ Example:
 - Source ID = 1000  
 - Target ID still = 800  
 
-👉 Leads to duplicate key errors after cutover  
 ---
 
  ### Risk 3: Cutover mistakes  
