@@ -518,22 +518,9 @@ Example:
 - Target ID still = 800  
 
 👉 Leads to duplicate key errors after cutover  
-
 ---
 
- ### Risk 3: Missed changes  
-- Replication failure may go unnoticed  
-- Silent data loss risk  
-
----
-
- ### Risk 4: Long-running transactions  
-- Can delay replication  
-- Causes lag buildup  
-
----
-
- ### Risk 5: Cutover mistakes  
+ ### Risk 3: Cutover mistakes  
 - Dual writes  
 - Data divergence between DBs  
 
